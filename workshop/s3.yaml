@@ -12,7 +12,7 @@ Resources:
           Value: Fine
       BucketName: !Join
         - "-"
-        - - "starship-bay3"
+        - - "s3-bucket-bcdemo-drift"
           - !Select
             - 0
             - !Split
