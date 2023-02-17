@@ -1,6 +1,5 @@
 name: Bridgecrew
 on:
-  pull_request:
   push:
     branches:
       - master
@@ -11,14 +10,9 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
-
-      - name: Run Bridgecrew 
-        id: Bridgecrew
-        uses: bridgecrewio/bridgecrew-action@master 
-        env:
-          PRISMA_API_URL: https://api2.prismacloud.io
-        with:
-          api-key: ${{ secrets.BC_API_KEY }}
-         # soft_fail: true
+    - uses: actions/checkout@v2
+    - name: Run Bridgecrew 
+      id: Bridgecrew
+      uses: bridgecrewio/bridgecrew-action@master
+      with:
+        api-key: ${{ secrets.BC_API_KEY }}
