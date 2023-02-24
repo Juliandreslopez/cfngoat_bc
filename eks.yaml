@@ -481,4 +481,3 @@ Outputs:
   VpcId:
     Description: The VPC Id
     Value: !Ref VPC
-    
