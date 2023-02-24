@@ -62,7 +62,7 @@ Resources:
         - Key: yor_trace
           Value: Juliandreslopez
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
@@ -85,7 +85,7 @@ Resources:
         - Key: yor_trace
           Value: e672877b-726b-4bb5-bb27-f7e8edb7613e
         - Key: git_org
-          Value: Juliandreslopez
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
   InternetGateway:
@@ -95,7 +95,7 @@ Resources:
         - Key: Name
           Value: !Sub '${AWS::StackName}-Internet Gateway'
         - Key: yor_trace
-          Value: c4e86b57-aa6a-4ff4-bef0-35905cc87db7
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_org
@@ -115,7 +115,7 @@ Resources:
         - Key: Network
           Value: Public
         - Key: yor_trace
-          Value: 99369f84-ea70-403b-91b1-1298c1d9b826
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_org
@@ -130,7 +130,7 @@ Resources:
         - Key: Network
           Value: Juliandreslopez
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
@@ -153,7 +153,7 @@ Resources:
         - Key: Name
           Value: Private Subnet AZ2
         - Key: Network
-          Value: Private02
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
@@ -211,7 +211,7 @@ Resources:
         - Key: yor_trace
           Value: 9a63423c-9c6e-4467-8a1e-b1fd9029281d
         - Key: git_org
-          Value: Juliandreslopez
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
   NatGateway02:
@@ -225,7 +225,7 @@ Resources:
       SubnetId: !Ref PublicSubnet02
       Tags:
         - Key: Name
-          Value: !Sub '${AWS::StackName}-NatGatewayAZ2'
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
@@ -262,7 +262,7 @@ Resources:
         - Key: yor_trace
           Value: Juliandreslopez
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
   NatGatewayEIP2:
@@ -273,7 +273,7 @@ Resources:
       Domain: vpc
       Tags:
         - Key: git_org
-          Value: Juliandreslopez
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
@@ -306,7 +306,7 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::StackName}-PublicSubnet01"
         - Key: yor_trace
-          Value: 7c34a299-7166-44a5-8ce5-09c8c9beca84
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_org
@@ -329,7 +329,7 @@ Resources:
         - Key: Name
           Value: Juliandreslopez
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
@@ -370,7 +370,7 @@ Resources:
         - Key: yor_trace
           Value: Juliandreslopez
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
@@ -411,7 +411,7 @@ Resources:
         - Key: yor_trace
           Value: Juliandreslopez
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
   PublicSubnet01RouteTableAssociation:
@@ -443,7 +443,7 @@ Resources:
         - Key: yor_trace
           Value: Juliandreslopez
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat_bc
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
