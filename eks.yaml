@@ -83,7 +83,7 @@ Resources:
         - Key: Name
           Value: !Sub '${AWS::StackName}-VPC'
         - Key: yor_trace
-          Value: e672877b-726b-4bb5-bb27-f7e8edb7613e
+          Value: Juliandreslopez
         - Key: git_org
           Value: cfngoat_bc
         - Key: git_repo
@@ -209,7 +209,7 @@ Resources:
         - Key: Name
           Value: !Sub '${AWS::StackName}-NatGatewayAZ1'
         - Key: yor_trace
-          Value: 9a63423c-9c6e-4467-8a1e-b1fd9029281d
+          Value: Juliandreslopez
         - Key: git_org
           Value: cfngoat_bc
         - Key: git_repo
@@ -273,9 +273,9 @@ Resources:
       Domain: vpc
       Tags:
         - Key: git_org
-          Value: cfngoat_bc
+          Value: Juliandreslopez
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat_bc
         - Key: git_file
           Value: eks.yaml
         - Key: git_commit
